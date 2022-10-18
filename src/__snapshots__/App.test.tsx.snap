@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="MuiBox-root css-1akl9ep"
+    >
+      <a
+        className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+        href="/"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Standings
+      </a>
+      <a
+        className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+        href="results"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Results
+      </a>
+    </div>
+    <div
+      style={
+        Object {
+          "height": 500,
+          "width": "80%",
+        }
+      }
+    >
+      <p>
+        Standings:
+      </p>
+      <div
+        className="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-1sumxir-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink={true}
+          id="demo-simple-select-label"
+        >
+          Year
+        </label>
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          onClick={[Function]}
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            className="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            2021
+          </div>
+          <input
+            aria-hidden={true}
+            className="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+            disabled={false}
+            onAnimationStart={[Function]}
+            onChange={[Function]}
+            required={false}
+            tabIndex={-1}
+            value="2021"
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-14lo706"
+            >
+              <span>
+                Year
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        aria-colcount={8}
+        aria-multiselectable={false}
+        aria-rowcount={1}
+        className="MuiDataGrid-root MuiDataGrid-root--densityStandard css-1e2bxag-MuiDataGrid-root"
+        role="grid"
+      >
+        <div
+          className="MuiDataGrid-main css-204u17-MuiDataGrid-main"
+        >
+          <div
+            className="MuiDataGrid-overlay css-f7tavo-MuiDataGrid-overlay"
+            error={[TypeError: Cannot set properties of null (setting 'scrollLeft')]}
+          >
+            An error occurred.
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
